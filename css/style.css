@@ -1,11 +1,32 @@
-.title {
+h2:hover {
 	color: red;
 }
 
-.subtitle {
+.subtittle{
+
 	color: blue;
 }
 
-#contact-us {
+#services{
+
 	color: green;
 }
+
+.list-element:nth-child(2){
+
+	color: red
+}
+
+td:only-child{
+	color:purple
+}
+
+#google-link:link{
+	color: green;
+
+}
+
+/* #google-link:visited{
+	color: orange;
+
+} */
