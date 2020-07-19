@@ -12,21 +12,38 @@ h2:hover {
 	color: green;
 }
 
-.list-element:nth-child(2){
+/* .list-element:nth-child(2){
 
 	color: red
-}
+} */
 
 td:only-child{
 	color:purple
 }
 
-#google-link:link{
+/* #google-link:link{
 	color: green;
 
-}
+} */
 
 /* #google-link:visited{
 	color: orange;
 
 } */
+
+h2 + a {
+
+	color:red
+}
+
+textarea ~ button {
+
+	background-color: red;
+}
+
+ul > li {
+	color: blue;	
+
+
+
+}
