@@ -2,10 +2,6 @@ h2:hover {
 	color: red;
 }
 
-.subtittle{
-
-	color: blue;
-}
 
 #services{
 
@@ -44,6 +40,20 @@ textarea ~ button {
 ul > li {
 	color: blue;	
 
+}
+
+h2[class="article-st"]{
+
+	color: orange;
 
 
+}
+
+.subtitle{
+
+	color: blue;
+}
+
+img[src^="../img/"]{   /*use of caret*/
+border: 3px solid red;
 }
