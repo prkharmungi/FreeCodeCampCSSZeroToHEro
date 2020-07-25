@@ -1,59 +1,17 @@
-h2:hover {
-	color: red;
+body {
+  background-color: linerrgba(0, 0, 255, 0.1);
 }
 
-
-#services{
-
-	color: green;
+#title {
+  color: rgb(145, 18, 9);
 }
 
-/* .list-element:nth-child(2){
-
-	color: red
-} */
-
-td:only-child{
-	color:purple
+.subtitle {
+  color: rgb(235, 64, 52);
 }
 
-/* #google-link:link{
-	color: green;
-
-} */
-
-/* #google-link:visited{
-	color: orange;
-
-} */
-
-h2 + a {
-
-	color:red
-}
-
-textarea ~ button {
-
-	background-color: red;
-}
-
-ul > li {
-	color: blue;	
-
-}
-
-h2[class="article-st"]{
-
-	color: orange;
-
-
-}
-
-.subtitle{
-
-	color: blue;
-}
-
-img[src^="../img/"]{   /*use of caret*/
-border: 3px solid red;
+#service-image {
+  height: 400px;
+  width: 70%;
+  background: radial-gradient(circle, red 10%, blue 30%, green 50%);
 }
