@@ -1,9 +1,17 @@
+
 body {
   background-color: linerrgba(0, 0, 255, 0.1);
+  /* text-transform: capitalize; */
+  /* text-align: center; */
+  /* font-size: 1.25em; */
+  /* font-size: 2cm; */
+  /* font-family: "Times New Roman","Segoe UI","Georgia" serif; */
+  font-family: "Roboto", sans-serif;
 }
 
 #title {
   color: rgb(145, 18, 9);
+  /* font-weight: 0; */
 }
 
 .subtitle {
@@ -12,6 +20,27 @@ body {
 
 #service-image {
   height: 400px;
-  width: 70%;
+  width: 70vw;
   background: radial-gradient(circle, red 10%, blue 30%, green 50%);
+  border: 2px solid rgb(0 , 0 , 255);
+  float: right;
+}
+
+.link {
+  text-decoration: underline;
+}
+.italics {
+  font-style: italic;
+}
+
+#about-us-image{
+	height: 300px;
+  width: 60%;
+  float: right;
+}
+
+
+.side-table{
+/* display: none; */
+
 }
